@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentations", "Presentations\Presentations.csproj", "{33315005-4EE5-4369-AA5C-4A130468ED9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentations", "Presentations\Presentations.csproj", "{33315005-4EE5-4369-AA5C-4A130468ED9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 01 Javascrript Introduction", "Lesson 01 Javascrript Introduction\Lesson 01 Javascrript Introduction.csproj", "{5D61B5FB-69B2-4F30-90A1-3CA3A4347C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 01 Javascrript Introduction", "Lesson 01 Javascrript Introduction\Lesson 01 Javascrript Introduction.csproj", "{5D61B5FB-69B2-4F30-90A1-3CA3A4347C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 02 HTML Basics", "Lesson 02 HTML Basics\Lesson 02 HTML Basics.csproj", "{0314B57C-A839-4C7F-BFFE-56AE51838F97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 02 HTML Basics", "Lesson 02 HTML Basics\Lesson 02 HTML Basics.csproj", "{CE7B0060-23E3-4982-AEAA-FB9C3185F9D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{5D61B5FB-69B2-4F30-90A1-3CA3A4347C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D61B5FB-69B2-4F30-90A1-3CA3A4347C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D61B5FB-69B2-4F30-90A1-3CA3A4347C65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0314B57C-A839-4C7F-BFFE-56AE51838F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0314B57C-A839-4C7F-BFFE-56AE51838F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0314B57C-A839-4C7F-BFFE-56AE51838F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0314B57C-A839-4C7F-BFFE-56AE51838F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7B0060-23E3-4982-AEAA-FB9C3185F9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7B0060-23E3-4982-AEAA-FB9C3185F9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7B0060-23E3-4982-AEAA-FB9C3185F9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7B0060-23E3-4982-AEAA-FB9C3185F9D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

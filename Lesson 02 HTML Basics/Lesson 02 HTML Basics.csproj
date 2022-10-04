@@ -7,8 +7,4 @@
     <RootNamespace>Lesson_02_HTML_Basics</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
 </Project>
