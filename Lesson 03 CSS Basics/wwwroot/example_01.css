@@ -1,0 +1,20 @@
+﻿p {
+    color: red;
+}
+
+.blue_p {
+    color: blue;
+    font-size: 8px;
+}
+
+div.blue_p {
+    font-size: 22px;
+}
+
+.red_back {
+    background-color:red;
+}
+
+#element1 {
+    color: yellowgreen;
+}

@@ -1,0 +1,30 @@
+﻿body {
+    background-image: url(cat1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.p1 {
+    background-color: rgba(255,255,255,0.5);
+}
+
+    .p1 h1 {
+        color: red;
+    }
+
+.p2 {
+    background-color: rgba(0,255,0,0.5);
+}
+
+    .p2 h1 {
+        color: yellow;
+    }
+
+.p3 {
+    background-color: rgba(255,0,0,0.5);
+}
+
+    .p3 h1 {
+        color: blue;
+    }
