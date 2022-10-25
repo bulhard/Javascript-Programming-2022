@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>demo_01</title>
+    <style>
+        .beautify {
+            background: lightcoral;
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+    <script>
+        function change() {
+            let element = document.getElementById("para");
+            element.classList.add("beautify");
+
+            document.getElementById("myText").value = "Johnny Bravo";
+        }
+
+        function selectElement() {
+            let element = document.querySelector("#box");
+            element.style.background = "lightgreen";
+
+            var name = document.getElementById("myText").value;
+            console.log(name);
+        }
+    </script>
+</head>
+<body>
+
+    <p id="para">This is a paragraph.</p>
+    <button onclick="change()">Select element and add class</button>
+
+
+    <p id="box">This is a paragraph.</p>
+    <button onclick="selectElement()">Select element with id</button>
+
+
+    <input type="text" id="myText" />
+</body>
+</html>
