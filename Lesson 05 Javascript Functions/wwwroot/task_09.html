@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <script src="task_09.js"></script>
+    <style>
+        body, table {
+            margin: auto;
+        }
+        td {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding="5" cellspacing="5">
+        <tr>
+            <td onclick="playTurn(0, this)"></td>
+            <td onclick="playTurn(1, this)"></td>
+            <td onclick="playTurn(2, this)"></td>
+        </tr>
+        <tr>
+            <td onclick="playTurn(3, this)"></td>
+            <td onclick="playTurn(4, this)"></td>
+            <td onclick="playTurn(5, this)"></td>
+        </tr>
+        <tr>
+            <td onclick="playTurn(6, this)"></td>
+            <td onclick="playTurn(7, this)"></td>
+            <td onclick="playTurn(8, this)"></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="messageBoard"></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <button type="button" onclick="location.reload();">Restart game</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
